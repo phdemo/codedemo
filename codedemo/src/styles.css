@@ -1,8 +1,35 @@
 
-
 /****
- Positions the images slider 10px down
+ * Positions the images slider 10px down
  */
 image-slider .container {
     margin-top: 10px;
+}
+
+
+/****
+ * Open Sans Font
+ */
+ h1 {
+ 	font-family: "Open Sans";
+ 	font-size: 40px;
+ 	font-style: normal;
+ 	font-variant: normal;
+ 	font-weight: 700;
+ 	line-height: 40px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+ }
+
+ p {
+	font-family: "Open Sans";
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 22px;
+}
+
+.centered-text {
+    text-align: center;
 }
