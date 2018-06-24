@@ -1,0 +1,8 @@
+
+
+/****
+ Positions the images slider 10px down
+ */
+image-slider .container {
+    margin-top: 10px;
+}

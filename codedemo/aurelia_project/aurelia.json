@@ -92,6 +92,18 @@
              "css/bootstrap.css"
             ]
         },
+        {
+          "name": "swiper",
+          "path": "../node_modules/swiper/dist",
+          "main": "js/swiper.min",
+          "deps": [
+            "jquery"
+          ],
+          "exports": "$",
+          "resources": [
+            "css/swiper.css"
+           ]
+        },
         "text"
         ]
       }

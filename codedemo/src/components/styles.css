@@ -1,0 +1,48 @@
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+}
+
+@media all and (min-width: 1200px) {
+    /* .container width = 1140px: handle Bootstraps half-gutter at the outer left and right
+       to match the design exactly. */
+    .swiper-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    /* .container width <= 960px: center the image(s) to look nice. */
+    .swiper-container {
+        text-align: center;
+    }
+}
+
+.button-prev, .button-next {
+    position: absolute;
+    top: 120px;
+    width: 18px;
+    height: 30px;
+    background-size: contain;
+    z-index: 10;
+    cursor: pointer;
+    background-image: url("/src/images/arrow-colored.png");
+}
+
+.button-prev {
+    left: 62px;
+    right: auto;
+}
+
+.button-next {
+    left: auto;
+    right: 62px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
