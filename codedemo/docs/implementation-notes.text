@@ -1,0 +1,14 @@
+
+* Resized and cut the images to fit 350x300.
+
+* Bootstrap grid fit the design well except that Bootstrap adds half a gutter to the left
+  of the left-most item in a row and vice-versa for the right-most item.
+
+* Using Aurelia framework because I believe I can make it work for this design and because I
+  am playing around with it currently and because I like its simplicity.
+
+* Using the popular swiper package to implement the image slider because it seems to have all
+  the required features.
+
+* I decided not to make smaller image sizes to be used for small-screened devices because most
+  devices are wider than the image width of 350 pixels.
