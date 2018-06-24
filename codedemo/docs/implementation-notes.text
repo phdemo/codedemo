@@ -22,3 +22,5 @@
 
 * The requirement that the images has to be loaded "by hand" through Ajax/json is strange because
   modern browser already download images asynchronously.
+
+* From the design I estimated title font to 40px bold, and body text to 12px.
