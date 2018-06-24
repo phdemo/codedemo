@@ -19,3 +19,6 @@
   > upload scripts     -->  webserver /scripts
   > upload images      -->  webserver /images
   > upload backend     -->  webserver /backend
+
+* The requirement that the images has to be loaded "by hand" through Ajax/json is strange because
+  modern browser already download images asynchronously.
