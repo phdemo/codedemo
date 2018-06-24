@@ -2,6 +2,11 @@ import 'bootstrap';
 import { imagesApi } from './imagesApi';
 import { BindingEngine, inject } from 'aurelia-framework';
 
+/*
+ * The main app that binds everything together.
+ * Takes care of getting data for the image slider.
+ */
+
 @inject(imagesApi)
 export class App {
     constructor(imagesApi) {

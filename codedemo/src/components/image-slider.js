@@ -1,6 +1,14 @@
 import Swiper from 'swiper/js/swiper';
 import { BindingEngine, bindable, bindingMode, inject } from 'aurelia-framework';
 
+/*
+ * Image slider ImageSliderCustomElement
+ *
+ * Input binding: images
+ *   array of images encoded as base64.
+ *   Adds new images when the array changes. Does not react to removed images.
+ */
+
 @inject(BindingEngine)
 export class ImageSliderCustomElement {
     @bindable() images;

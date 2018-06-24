@@ -1,6 +1,11 @@
 import { HttpClient, json } from 'aurelia-fetch-client';
 let httpClient = new HttpClient();
 
+/*
+ * Model proxy for the images to be shown in the image slider.
+ *
+ * Takes care of asynchronously downloading the images.
+ */
 export class imagesApi {
 
     constructor() {
