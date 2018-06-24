@@ -28,7 +28,7 @@
     background-size: contain;
     z-index: 10;
     cursor: pointer;
-    background-image: url("/src/images/arrow-colored.png");
+    background-image: url("images/arrow-colored.png");
 }
 
 .button-prev {
