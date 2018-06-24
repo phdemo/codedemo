@@ -12,3 +12,10 @@
 
 * I decided not to make smaller image sizes to be used for small-screened devices because most
   devices are wider than the image width of 350 pixels.
+
+* Build and install from projects root folder:
+  > au build --end prod
+  > upload index.html  -->  webserver /index.html
+  > upload scripts     -->  webserver /scripts
+  > upload images      -->  webserver /images
+  > upload backend     -->  webserver /backend
