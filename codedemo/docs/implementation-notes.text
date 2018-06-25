@@ -25,8 +25,8 @@
 
 * From the design I estimated title font to 40px bold, and body text to 12px.
 
-* I should be giving feedback to the user when submitting the form - both when succesful and
-  when an error happened. I would ask the designer how to show the feedback :-)
+* I give feedback to the user in a simple alert box after submitting the form - both when
+  successful and when an error happened. This feedback should be given in a nicer way.
 
 * The database name and database user is hard-coded in the code file using it. It should be
   defined in a common configuration somewhere.

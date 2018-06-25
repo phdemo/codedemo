@@ -26,14 +26,15 @@ export class SimpleFormCustomElement {
                 url: action,
                 data: JSON.stringify(params),
                 success: function (data) {
-                    // TODO: Positive feedback to user should be given
+                    // TODO: Positive feedback to user should be given in a better way
+                    alert('Name and Email were saved succesfully');
                 },
                 error: function (jqXHR) {
-                    // TODO: Error feedback to user should be given
-                    // var data = jqXHR.responseJSON;
-                    // if (data.hasOwnProperty('error')) {
-                    //     alert(data.error);
-                    // }
+                    // TODO: Error feedback to user should be given in a better way
+                    var data = jqXHR.responseJSON;
+                    if (data.hasOwnProperty('error')) {
+                        alert(data.error);
+                    }
                 },
                 dataType: 'json'
             });
