@@ -30,6 +30,15 @@ image-slider .container {
 	line-height: 22px;
 }
 
+input, button {
+    font-family: "Open Sans";
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
 .centered-text {
     text-align: center;
 }

@@ -1,0 +1,30 @@
+<template>
+    <require from="components/simple-form-styles.css"></require>
+
+    <div class="container">
+        <form action="/codedemo/backend/signup.php" method="post">
+            <div class="row">
+                <div class="col-md-3">&nbsp;</div>
+                <div class="col-md-6 col-sm-12">
+                    <input type="text" placeholder="Name" id="name" name="username" autocomplete="username" autofocus />
+                </div>
+                <div class="col-md-3">&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">&nbsp;</div>
+                <div class="col-md-6 col-sm-12">
+                    <input type="email" placeholder="Email" id="name" name="useremail" autocomplete="email" />
+                </div>
+                <div class="col-md-3">&nbsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">&nbsp;</div>
+                <div class="col-md-2">
+                    <button type="submit">Send</button>
+                </div>
+                <div class="col-md-5">&nbsp;</div>
+            </div>
+        </form>
+    </div>
+
+</template>
