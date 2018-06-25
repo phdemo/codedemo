@@ -21,6 +21,7 @@
 
     } else {
         // Return the asked-for image as base64 string packed into json
+        $filename = urldecode($filename);
         $object = array('imagedata' => getFile($filename), 'name' => $filename);
         echo json_encode($object);
     }
