@@ -24,3 +24,11 @@
   modern browser already download images asynchronously.
 
 * From the design I estimated title font to 40px bold, and body text to 12px.
+
+* I should be giving feedback to the user when submitting the form - both when succesful and
+  when an error happened. I would ask the designer how to show the feedback :-)
+
+* The database name and database user is hard-coded in the code file using it. It should be
+  defined in a common configuration somewhere.
+
+* Checks that the same email only can be saved once in the database.
